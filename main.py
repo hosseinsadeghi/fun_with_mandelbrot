@@ -58,10 +58,8 @@ while True:
 
     res = plt.ginput(1, timeout=np.inf)[0]
     i, j = res
-    print(x0, y0, i, j)
     x0 = x0 + sc * (i - N / 2) / N
     y0 = y0 + sc * (j - N / 2) / N
-    print(x0, y0)
     sc = sc / 50
     pause(0.0001)
 
