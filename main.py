@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from timeit import default_timer as timer
 from matplotlib.pylab import imshow, jet, show, ion, pause
 import numpy as np
 from numba import jit
